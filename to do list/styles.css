@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
+body{
+    background-color: #EBEBEB;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+}
+
+.container{
+    height: 75vh;
+    background-color: #4044C9;
+    width: 40%;
+    border: 1px solid #02315D;
+    border-radius: 1rem;
+    position: relative;
+    margin-bottom: 3rem;
+    box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.75);
+}
+
+.input-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    font-family: 'Klee One', cursive;
+}
+#input{
+    height: 2.5rem;
+    width: 20rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    box-shadow: 4px 4px 16px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 4px 4px 16px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 4px 16px 0px rgba(0,0,0,0.75);
+
+}
+
+#btn{
+    border: #DFCFD5;
+    border-radius: 0.5rem;
+    padding: 0.4rem;
+    width: 6.5rem;
+    cursor: pointer;
+    background-color: white;
+    color: #02315D;
+    font-weight: 800;
+    margin-left: 1rem;
+    margin-bottom: 3rem;
+    box-shadow: 4px 4px 16px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 4px 4px 16px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 4px 16px 0px rgba(0,0,0,0.75);
+}
+.task-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: large;
+    
+}
+
+.div-task{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: large;
+    flex-basis:30rem;
+    font-family: 'Klee One', cursive;
+    
+    
+
+
+}
+.icon{
+    cursor: pointer;
+}
+.li-item{
+    cursor: pointer;
+}
+.clear{
+    border: #DFCFD5;
+    border-radius: 0.5rem;
+    padding: 0.4rem;
+    width: 10rem;
+    cursor: pointer;
+    background-color: white;
+    color: #02315D;
+    font-weight: 800;
+    position: absolute;
+    top: 89%;
+    left: 50%;
+    transform: translate(-50% ,0);
+    font-family: 'Klee One', cursive;
+    box-shadow: 4px 4px 16px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 4px 4px 16px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 4px 16px 0px rgba(0,0,0,0.75);
+    
+}
+h1{
+    position: absolute;
+    top: 2.5rem;
+    color: #02315D;
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+}
